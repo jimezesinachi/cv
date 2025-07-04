@@ -5,3 +5,6 @@ assets = { directory = "./out" }
 
 [observability.logs]
 enabled = true
+
+[vars]
+DEPLOY_TARGET = "cloudflare"
