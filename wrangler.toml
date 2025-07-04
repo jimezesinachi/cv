@@ -1,0 +1,7 @@
+name = "my-personal-dev-cv-website"
+compatibility_date = "2025-07-04"
+
+assets = { directory = "./out" }
+
+[observability.logs]
+enabled = true
