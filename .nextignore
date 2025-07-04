@@ -1,0 +1,31 @@
+# Ignore build artifacts
+
+dist/
+out/
+build/
+.next/
+.vercel/
+
+# Ignore node_modules symlinks or extra copies
+
+node_modules/
+\*\*/node_modules/
+
+# Ignore environment files
+
+.env
+.env.\*
+
+# Ignore content folders not needed in serverless functions
+
+content/
+data/
+public/assets/tmp/
+
+# Ignore test files and fixtures
+
+tests/
+**mocks**/
+**fixtures**/
+_.test.js
+_.spec.ts
